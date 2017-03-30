@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head><body onLoad="MM_preloadImages('imagenes/P2.jpg')">
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1> TELEFONIA CELULAR </h1>
+</div>
+<div>
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> QUE ES UN CELULAR</h2>
+<p>Se muestra la definicion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>HISTORIA </h2>
+<p>Se muestra antecedentes de los celulares</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>CLASIFICACION </h2>
+<p>Muestra gama alta, media, baja</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>COMPAÑIAS QUE MANEJAN LATECNOLOGIA CELULAR</h2>
+<p>Muestra el deporte que mas le agrada al alumno</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>CELULARES DEL FUTURO</h2>
+<p> Muestra celulares que existiran en un futuro</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/icon.png" width="128" height="128">
+</div>
+<div>
+<h4>Aplicacion Dos</h4>
+<h4>Aurora Berenice Gonzalez Aguilar</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+<h1>¿QUE ES UN TELEFONO  CELULAR?</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>El teléfono inteligente (smartphone en inglés) es un tipo de teléfono móvil construido sobre una plataforma informática móvil, con mayor capacidad de almacenar datos y realizar actividades, semejante a la de una minicomputadora, y con una mayor conectividad que un teléfono móvil convencional. El término inteligente, que se utiliza con fines comerciales, hace referencia a la capacidad de usarse como un computador de bolsillo, y llega incluso a reemplazar a una computadora personal en algunos casos.
+
+Generalmente, los teléfonos con pantallas táctiles son los llamados teléfonos inteligentes, pero el soporte completo al correo electrónico parece ser una característica indispensable encontrada en todos los modelos existentes y anunciados desde 2007. Casi todos los teléfonos inteligentes también permiten al usuario instalar programas adicionales, habitualmente incluso desde terceros, hecho que dota a estos teléfonos de muchísimas aplicaciones en diferentes terrenos; sin embargo, algunos teléfonos son calificados como inteligentes aun cuando no tienen esa característica.
+
+Entre otros rasgos comunes está la función multitarea, el acceso a Internet vía Wifi o redes 4G, 3G o 2G, función multimedia (cámara y reproductor de videos/mp3), a los programas de agenda, administración de contactos, acelerómetros, GPS y algunos programas de navegación, así como ocasionalmente la habilidad de y leer documentos de negocios en variedad de formatos como PDF y Microsoft Office.</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>CELULARES</h1>
+
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/tc.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos, ABGA</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+<h1>HISTORIA TELEFONICA</h1>
+</div>
+
+<div data-role="content" align="center">
+<div>
+
+<h2>TELEFONOS ANTIGUOS</h2></div>
+<p>En un principio, los primeros teléfonos móviles o celulares que salieron al mercado, eran dispositivos muy aparatosos y pesados, a la vez que estaban al alcance de unos pocos privilegiados, ya que su precio era de dimensiones astronómicas. Estos gigantescos y pesados terminales, tan solo servían para enviar y recibir tanto llamadas como mensajes de texto, aunque en aquella época nadie utilizaba el servicio de mensajería del teléfono móvil.
+
+El primer terminal móvil que apareció en Estados Unidos, fue un Motorola DynaTAC 8000x en 1983, y como podréis comprobar con vuestros propios ojos, nada tiene que ver con el mundo de la telefonía móvil tal y como lo conocemos en la actualidad. Además, su batería daba sólo para 1 hora de conversación antes de descargarse.
+
+Con 800 gramos de peso y unas dimensiones de 33 x 4,5 y 8,9 centímetros era un auténtico armatoste que poco tenía de dispositivo móvil y mas recordaba a las típicas películas bélicas y esos teléfonos tipo mochila que solía portear el ingeniero en telecomunicaciones.
+
+El precio que rondaba este Terminal de telefonía móvil sobre el año 1983, se acercaba a la escalofriante cifra de los 4000 Dólares Estadounidenses, una cifra mas que respetable para el nivel de vida de la época.</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>TELEFONO ANTIGUO</h1>
+
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/ca.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+
+
+<h2>TELEFONOS RECIENTES</h2>
+
+<p>Que la telefonía móvil a cambiado de manera mas que sustancial, es un hecho constatado en el cual caemos sin necesidad de tener que leer ningún estudio ni investigación al respecto, tan solo hace falta mirar la imagen y el diseño del primer Motorola y compararla con cualquier teléfono móvil de última generación que tengamos disponible en el mercado tecnológico actual.
+
+Comparando ambas imágenes, nos podemos dar cuenta a simple vista del profundo cambio que ha sufrido el mundo de la tecnología en el sector de las comunicaciones y telefonía móvil, y es mas fácil de comprender, el viejo dicho que dice que : “las comparaciones son odiosas”.
+
+Si en un principio, los terminales de telefonía móvil tan solo nos servían para llamar, recibir llamadas y mandar algún que otro mensaje de texto, esto en la actualidad en simplemente unas de las pocas funciones incluidas en estos auténticos mini-ordenadores de bolsillo.
+
+Además de las funciones propias de cualquier teléfono convencional, los últimos y mas avanzados modelos de telefonía móvil o mejor conocidos como Teléfonos inteligentes o Smartphones, nos ofrecen infinidad de servicios y aplicaciones móviles.
+
+Mas que unos simples teléfonos, son auténticos ordenadores que funcionan con sistemas operativos específicos y optimizados según las condiciones de cada terminal.
+
+Así ademas de la propia antena emisora y receptora de señal, los Smartphones de hoy en día vienen equipados con antenas de posicionamiento GPS, conectividad WiFi, Capacidad para enviar y recibir archivos de manera inalámbrica, tanto por Wifi como por Bluetooth, cámaras integradas de gran calidad y resolución, tanto de imagen como de video.
+
+Los terminales de hoy en día están preparados para permanecer conectados tanto a la red de telefonía como a la red de trafico de datos e Internet de alta velocidad, de manera totalmente inalámbrica, simultanea y de forma permanente, ya que las baterías de última generación nos ofrecen una autonomía mas que suficiente para aguantar el funcionamiento del dispositivo de manera correcta durante todo el día
+
+Son capaces de enviar y recibir archivos a través de la red, así como de reproducir archivos multimedia ya sean de video o audio, teniendo así todo un centro multimedia portátil para llevar con nosotros a cualquier lugar y disfrutalos allá donde nos encontremos.
+
+Todo esto al alcance de cualquiera, ya que si en un principio cuando nació la telefonía móvil, tenías que ser prácticamente millonario para disponer de uno de esos gigantescos aparatos, ahora en la actualidad, y gracias a la terrible competencia en el sector, se han rebajado los precios de manera considerable, poniendo esta tecnología al alcance de casi cualquier economía, tanto que no se concibe la vida en occidente sin este pequeño aparato, y
+ es común y habitual su uso en la vida cotidiana y rutinaria.</p>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>TELEFONO MODERNO</h1>
+
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/CM.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+</div
+><div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos, ABGA</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">9
+  <h1>CLASIFICACION</h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+   
+   <h2>GAMA ALTA</h2></div>
+   <p>Aquí agruparemos a los teléfonos celulares no sólo considerados como emblemáticos de cada empresa fabricante (Samsung Galaxy S4, LG G2, Sony Xperia Z, etc.), sino también por reunir todas las características, componentes, avances, tendencias e innovaciones que proporciona la tecnología móvil para el momento del lanzamiento, en lo concerniente a su funcionamiento: pantalla, acceso a redes de máxima velocidad, conectividad, versión del sistema operativo, procesador y la frecuencia en GHz, memoria RAM, batería, capacidad y servicios gratuitos de almacenamiento, además de la cámara fotográfica y video.</p>
+   <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>CELULARES DE GAMA ALTA</h1>
+
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/GA.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+    <h2>GAMA MEDIA</h2>
+    <p>Algunos smartphones rozan el fino lindero que dividen los móviles de alta gama con los de media gama, por lo cual sería irrazonable colocarlos al lado de otros celulares con menores especificaciones o funcionalidades. Por tal razón, hemos decidido crear esta nueva escala denominada media gama plus, en la cual aglutinaremos los teléfonos celulares que están muy cerca de ser alta gama, pero que están por debajo de la tendencia en dos o tres características preponderantes de funcionamiento en un smartphone (sistema operativo, procesador y velocidad en GHz, memoria RAM, batería, acceso a redes y conectividad). También clasificaremos aquí a los móviles que hasta hace poco fueron considerados de alta gama, cuya condición la pierden con el tiempo ante los más poderosos equipos que salen al mercado cada año, con enormes mejoras.</p>
+    <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>CELULARES DE GAMA MEDIA</h1>
+
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/GM.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+      <H2>GAMA BAJA</H2>
+      <P>En esta categoría distribuiremos los celulares inteligentes con plataformas que no dan soporte a muchas utilidades que tienen los teléfonos de otras gamas. Sus pantallas son de escasas dimensiones y resolución, poca memoria RAM y mínima capacidad de almacenamiento interno, cámaras VGA (no llegan al Megapíxel), menores herramientas, acceso a redes y aplicaciones, entre otros aspectos. Se diferencian de los teléfonos básicos (no inteligentes), por el hecho de permitir funcionalidades que van más allá de llamar y recibir llamadas. La clave de todo es que los smartphones trabajan con un sistema operativo informático móvil, dotado de una interfaz para el acceso a Internet, cuentas de correo electrónico y el ingreso de datos a través de un teclado QWERTY. Permiten instalación de programas, la lectura de documentos en distintos formatos y te ayudan a realizar tareas y organizar tus archivos personales. Están diseñados de manera muy sencilla para la fácil y rápida compenetración del usuario, los materiales de fabricación garantizan durabilidad y la batería generalmente es de gran rendimiento.
+      <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>CELULARES DE GAMA BAJA</h1>
+
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/GB.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+   </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+   <h4>Aplicacion Uno, ABGA</h4>
+   </div>
+   </div>
+   
+   
+   <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>COMPAÑIAS QUE MANEJAN LA TELEFONIA EN MEXICO</h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  
+      <p>Operadores móviles virtuales (OMV).[editar]
+Aló opera bajo la red de Telcel3
+
+Bueno Cell opera bajo la red de Telcel4
+
+Unefon opera bajo la red de AT&T*
+
+Weex opera bajo la red de Movistar
+
+QBOCEL opera bajo la red de Movistar
+
+Maxcom opera bajo la red de Movistar.
+
+Megacable opera bajo la red de Movistar.
+
+Virgin Mobile opera bajo la red de Movistar.
+
+Coppel opera bajo la red de Movistar.
+
+Tuenti opera bajo la red de Movistar.
+
+Cierto opera bajo la red de Movistar.
+Maz Tiempo opera bajo la red de Movistar.
+Lycamobile operará bajo la red de Movistar. pero todavía no define la fecha para iniciar operaciones en México
+
+*Hoy en día Unefon utiliza formalmente la red de AT&T, la red ya fue unificada y la compañía ya es capaz de enlazar conexión de velocidad 4G evolution (antes de Nextel).</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>AT & T</h1>
+
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/AT.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+   </div>
+  </div>
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>TELCEL & MOVISTAR</h1>
+
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/TL.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+   </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+   <h4>Aplicacion Dos</h4>
+   </div>
+   </div>
+   
+   
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>TELEFONOS  DEL  FUTURO</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+    <h1>PANTALLAS FLEXIBLES </h1>
+      <p>Fabricantes como LG y Samsung han estado coqueteando con la idea desde hace ya un tiempo. Conforme las pantallas se hacen más y más grandes, vemos que hay un límite en el tamaño en el que es cómodo manejar un smartphone, especialmente.
+
+Por el momento podríamos soñar con smartphones cilíndricos cuya pantalla pudiera desplegarse como un rollo en caso de necesitarlo. Además, podríamos ver un nuevo auge de los llamados ‘flip phones’ o ‘clamshell’, esta vez con pantalla en todo su interior</p>
+      
+ <h1>NUEVAS FORMAS DE AUTENTICACION </h1>
+      <p>Códigos PIN, contraseñas, patrones de desbloqueo, sensores de huellas abajo, detrás o al lado. Estos son los métodos más comunes para autenticarnos en nuestro equipo. Sin embargo, compañías como Qualcomm están desarrollando nuevos sensores de huellas integrados en la pantalla del equipo, basados en el sonar. Así, por medio de ultrasonido sería posible identificar la superficie de cada dedo en particular.
+
+Adicionalmente, otras compañías como Fujitsu están desarrollando tecnología de reconocimiento de iris no invasiva, y así ya tenemos un equipo con cámaras capaces de diferenciar el ojo del usuario. Microsoft también presentó una solución similar en sus recientes equipos Lumia 950 y Lumia 950 XL.</p>
+      <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>FORMAS DE AUTENTICACION</h1>
+
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/A.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+<h1>SENSORES 3D </h1>
+      <p>Project Tango es uno de los proyectos alternativos de Google. Por el momento consiste en una tableta que tiene varias cámaras que le permiten analizar y entender su entorno. Esta tecnología, que por el momento no se encuentra disponible para los consumidores, podría ser el futuro de la realidad aumentada en los móviles. Además, esto permitiría a personas con discapacidad visual moverse por un espacio que no conoce, mediante comandos de voz.
+
+Por otro lado, en el más reciente Google I/O, la compañía nos presentó su proyecto Soli, que por medio de un pequeño sonar, se podrá interactuar con los dispositivos sin tocarlos. Actualmente, algunos smartphones se pueden controlar a través de gestos en el aire que son captados por medio de cámaras, pero la posibilidad que nos da Soli es increíble, en especial porque nos da un rango de acción gigante, no solo en los celulares del futuro, sino en otro tipo de dispositivos.</p>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>CELULARES</h1>
+
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/SS.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+      </div>
+     
+      </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+      <h4>Aplicacion Dos, ABGA</h4>
+        </div>
+      </div>
+      
+      
+
+</body>
+</html>
+
